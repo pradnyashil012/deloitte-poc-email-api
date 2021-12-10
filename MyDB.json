@@ -1,0 +1,13 @@
+{
+  "register": {
+    "289c3a23-6438-4964-91c2-b5762e70f57d": {
+      "id": "289c3a23-6438-4964-91c2-b5762e70f57d",
+      "tempSecret": {
+        "ascii": "{il9M}z67IoS{hM#@9m</e5F?/8!1I[P",
+        "hex": "7b696c394d7d7a3637496f537b684d2340396d3c2f6535463f2f382131495b50",
+        "base32": "PNUWYOKNPV5DMN2JN5JXW2CNENADS3J4F5STKRR7F44CCMKJLNIA",
+        "otpauth_url": "otpauth://totp/SecretKey?secret=PNUWYOKNPV5DMN2JN5JXW2CNENADS3J4F5STKRR7F44CCMKJLNIA"
+      }
+    }
+  }
+}
