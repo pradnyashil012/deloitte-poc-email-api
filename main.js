@@ -23,11 +23,6 @@ const nodemailer = require("nodemailer");
 // var ccAddresses = "cc-recipient0@example.com,cc-recipient1@example.com";
 // var bccAddresses = "bcc-recipient@example.com";
 
-// Replace smtp_username with your Amazon SES SMTP user name.
-// const smtpUsername = "AKIAQT7QAMRIXWFE6ZHD";
-
-// Replace smtp_password with your Amazon SES SMTP password.
-// const smtpPassword = "BNHnr0BKsk87k7ERSQ6IGtVZWmjihw2HeA7+bD/hlnzP";
 
 // (Optional) the name of a configuration set to use for this message.
 // var configurationSet = "ConfigSet";
@@ -59,10 +54,10 @@ const nodemailer = require("nodemailer");
 const main = async () => {
   const smtpEndpoint = "email-smtp.ap-south-1.amazonaws.com";
   const port = 587;
-  const senderAddress = "Aayush Shah <aayush.shah@oneture.com>";
-  var toAddresses = "aayush.shah@oneture.com";
-  const smtpUsername = "AKIAQT7QAMRIXWFE6ZHD";
-  const smtpPassword = "BNHnr0BKsk87k7ERSQ6IGtVZWmjihw2HeA7+bD/hlnzP";
+  const senderAddress = "Verify <email@cryptonaukri.com>";
+  var toAddresses = "email@cryptonaukri.com";
+  const smtpUsername = "";
+  const smtpPassword = "";
   var subject = "Official Email Address Verification";
 
   // The body of the email for recipients whose email clients support HTML content.
@@ -72,7 +67,7 @@ const main = async () => {
     <h1>Verification of Your Email Address</h1>
     <p>Dear <strong>Pradnyashil Gajbhiye</strong>,</p>
     <p>Thank you for submitting the basic details for registering yourself on Deloitte Portal.</p>
-    <p>Please click on the link below to activate your account: <a href="http://localhost:4200/registration2">http://localhost:4200/registration2</a></p>
+    <p>Please click on the link below to activate your account: <a href="http://www.cryptonaukri.com">Verify</a></p>
   </body>
   </html>`;
 
